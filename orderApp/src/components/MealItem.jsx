@@ -4,9 +4,11 @@ import classes from './MealItem.module.css'
 import { useDispatch } from 'react-redux'
 import { cartActions } from '../store'
 
+const API_URL = 'https://orderapp-backend-tpks.onrender.com'
+
 function MealItem({ item }) {
 	const { id, name, price, image, description, orders } = item
-	const img = `http://localhost:3000/${image}`
+	const img = `{API_URL}/${image}`
 
 	const dispatch = useDispatch()
 
