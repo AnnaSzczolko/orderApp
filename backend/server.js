@@ -1,9 +1,10 @@
-import bodyParser from 'body-parser'
+
 import express from 'express'
 import fs from 'node:fs/promises'
+import path from "path";
 
 const app = express()
-app.use(bodyParser.json())
+app.use(express.json())
 app.use(express.static('public'))
 
 app.use((req, res, next) => {
@@ -119,15 +120,19 @@ const defaultOrders = [
     ]
   }
 ]
-// await fs.writeFile("./data/orders.json", JSON.stringify(defaultOrders, null, 2));
-// app.listen(3000)
-async function startServer() {
-  await fs.writeFile('./data/orders.json', JSON.stringify(defaultOrders, null, 2))
 
-  app.listen(3000, () => {
-    console.log('Server running on port 3000 – wszystkie zamówienia zostały zresetowane do defaultowych')
+const PORT = process.env.PORT || 3000
+
+async function startServer() {
+  try {
+    await fs.access('./data/orders.json')
+  } catch {
+    await fs.writeFile('./data/orders.json', JSON.stringify(defaultOrders, null, 2))
+  }
+
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`)
   })
 }
 
 startServer()
-

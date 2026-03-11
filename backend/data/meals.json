@@ -4,7 +4,7 @@
     "name": "Spaghetti Pomodoro",
     "price": "24.99",
     "description": "Classic al dente spaghetti in a light tomato sauce made from ripe tomatoes, garlic, and fresh basil, finished with extra virgin olive oil.",
-    "image": "images/SpaghettiPomodoro.png",
+    "image": "/images/SpaghettiPomodoro.png",
     "orders": 123
   },
   {
@@ -12,7 +12,7 @@
     "name": "Tagliatelle al Pesto",
     "price": "27.99",
     "description": "Fresh tagliatelle tossed in aromatic basil pesto with pine nuts, parmesan cheese, and olive oil.",
-    "image": "images/TagliatellealPesto.png",
+    "image": "/images/TagliatellealPesto.png",
     "orders": 256
   },
   {
@@ -20,7 +20,7 @@
     "name": "Penne Arrabbiata",
     "price": "25.99",
     "description": "Penne pasta in a spicy tomato sauce with chili, garlic, and parsley – a bold flavor inspired by Roman cuisine.",
-    "image": "images/PenneArrabbiata.png",
+    "image": "/images/PenneArrabbiata.png",
     "orders": 342
   },
   {
@@ -28,7 +28,7 @@
     "name": "Fusilli with Cream Sauce",
     "price": "26.99",
     "description": "Fusilli pasta in a creamy parmesan sauce with freshly ground black pepper, smooth and delicate in flavor.",
-    "image": "images/Fusillisosemśmietanowym.png",
+    "image": "/images/Fusillisosemśmietanowym.png",
     "orders": 198
   },
   {
@@ -36,7 +36,7 @@
     "name": "Ravioli (Ricotta & Spinach)",
     "price": "29.99",
     "description": "Delicate ravioli filled with ricotta and spinach, served with sage butter and grated parmesan.",
-    "image": "images/Ravioli.png",
+    "image": "/images/Ravioli.png",
     "orders": 410
   },
   {
@@ -44,7 +44,7 @@
     "name": "Linguine alle Vongole",
     "price": "34.99",
     "description": "Linguine with clams in a light white wine sauce with garlic, parsley, and olive oil.",
-    "image": "images/LinguinealleVongole.png",
+    "image": "/images/LinguinealleVongole.png",
     "orders": 287
   },
   {
@@ -52,7 +52,7 @@
     "name": "Spaghetti Carbonara",
     "price": "28.99",
     "description": "Spaghetti in a creamy sauce made with egg yolks, pecorino romano, and crispy pancetta, seasoned with freshly ground black pepper.",
-    "image": "images/SpaghettiCarbonara.png",
+    "image": "/images/SpaghettiCarbonara.png",
     "orders": 365
   },
   {
@@ -60,7 +60,7 @@
     "name": "Farfalle with Salmon",
     "price": "32.99",
     "description": "Farfalle pasta with salmon pieces in a delicate cream sauce with dill and a hint of lemon.",
-    "image": "images/Farfallezłososiem.png",
+    "image": "/images/Farfallezłososiem.png",
     "orders": 444
   },
   {
@@ -68,7 +68,7 @@
     "name": "Gnocchi with Butter and Sage",
     "price": "27.99",
     "description": "Soft potato gnocchi sautéed in butter with crispy sage and topped with grated parmesan.",
-    "image": "images/Gnocchizmasłemiszałwią.png",
+    "image": "/images/Gnocchizmasłemiszałwią.png",
     "orders": 152
   },
   {
@@ -76,7 +76,7 @@
     "name": "Tagliolini with Truffle",
     "price": "39.99",
     "description": "Thin tagliolini pasta in a creamy sauce with freshly grated black truffle and parmesan.",
-    "image": "images/Taglioliniztruflą.png",
+    "image": "/images/Taglioliniztruflą.png",
     "orders": 499
   },
   {
@@ -84,7 +84,7 @@
     "name": "Orecchiette with Vegetables",
     "price": "26.99",
     "description": "Orecchiette pasta with seasonal vegetables, olive oil, garlic, and a touch of chili, finished with parmesan.",
-    "image": "images/Orecchiettezwarzywami.png",
+    "image": "/images/Orecchiettezwarzywami.png",
     "orders": 231
   },
   {
@@ -92,7 +92,7 @@
     "name": "Lasagne",
     "price": "31.99",
     "description": "Layered lasagna with Bolognese sauce, béchamel, and baked mozzarella – a classic Italian recipe.",
-    "image": "images/Lasagne.png",
+    "image": "/images/Lasagne.png",
     "orders": 308
   }
 ]
