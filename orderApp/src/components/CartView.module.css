@@ -1,0 +1,65 @@
+.cart {
+	display: flex;
+	flex-direction: column;
+
+	border-radius: 16px;
+	padding: 1rem;
+}
+
+.info{
+	margin-block: 20px;
+
+}
+
+.title {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 0.5em;
+}
+.text {
+	font-size: 1.6rem;
+	margin-bottom: 0.25em;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 12px;
+    margin-block: 10em;
+
+}
+ span{
+    font-size: 1.8rem;
+ }
+
+.btn {
+	font-size: 1.8rem;
+	background-color: #b89259;
+	color: white;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s, opacity 0.2s;
+	outline: none;
+}
+
+.btn:disabled{
+	background-color: #ccc;
+	color: #666;
+	cursor: not-allowed;
+	opacity: 0.7;
+	pointer-events: none;
+}
+
+.btn:not(:disabled):hover, .btn:not(:disabled):focus {
+	background-color: #db9224;
+}
+
+.btnActions{
+	display: flex;
+	justify-content: flex-end;
+	gap: 1rem;
+}

@@ -1,0 +1,48 @@
+.nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.5rem 3rem;
+
+}
+
+.icon {
+	width: 40px;
+	aspect-ratio: 1;
+    filter: brightness(0) invert(1);
+}
+
+.btn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 0.5em;
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	border-radius: 8px;
+    color: white;
+    background-color: transparent;
+    border: none;
+	padding-inline: 1em;
+
+	cursor: pointer;
+	outline: none;
+	transition: background-color 0.5s;
+}
+
+.btn:focus, .btn:hover{
+   background-color: #db9224;
+}
+
+.btn img {
+    width: 25px;
+      filter: brightness(0) invert(1);
+}
+
+

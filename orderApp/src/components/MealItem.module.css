@@ -1,0 +1,64 @@
+.mealItem {
+	background: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    
+	
+}
+
+.mealImg {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+.mealTitle {
+	font-size: 1.8rem;
+    margin-top: 1em;
+	
+}
+
+.mealPrice {
+	font-size: 1.6rem;
+    margin-block: 0.5em;
+	color: #555;
+}
+.mealDescription {
+
+	font-size: 1.6rem;
+    margin-bottom: 1em;
+    margin-inline: 1em;
+	
+}
+
+.mealBtn {
+
+	margin-top: auto;
+	margin-bottom: 1em;
+    font-size: 1.8rem;
+	align-self: center;
+
+	background-color: #b89259;
+	color: white;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	outline: none;
+}
+
+.mealBtn:hover, .mealBtn:focus {
+	background-color: #db9224;
+}
+
+

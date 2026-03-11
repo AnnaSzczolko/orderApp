@@ -1,0 +1,54 @@
+
+
+.button {
+    display: block;
+    margin-left: auto;
+	margin-bottom: 1em;
+	font-size: 1.8rem;
+	align-self: center;
+
+	background-color: #b89259;
+	color: white;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+	outline: none;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #db9224;
+}
+
+.ordersList {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.orderCard {
+	background: white;
+	border-radius: 8px;
+	padding: 18px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customerName {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.address {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.productsList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
