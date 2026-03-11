@@ -1,9 +1,10 @@
 import { mealsActions } from '.'
+const API_URL = 'https://orderapp-backend-tpks.onrender.com'
 
 export const fetchMeals = () => {
 	return async (dispatch, getState )=> {
 		const getMeals = async () => {
-			const data = await fetch('http://localhost:3000/meals')
+			const data = await fetch(`${API_URL}/meals`)
 
 			if (!data.ok) {
 				throw new Error(data.message || 'Failed to fetch meals')

@@ -4,6 +4,9 @@ import CartItemInOrders from './CartItemInOrders'
 import classes from './Orders.module.css'
 import Spinner from './Spinner'
 
+const API_URL = 'https://orderapp-backend-tpks.onrender.com'
+
+
 export default function Orders() {
 	const [orders, setOrders] = useState([])
 	const [showOrders, setShowOrders] = useState(false)
@@ -12,7 +15,7 @@ export default function Orders() {
 	async function loadOrders() {
 		setStatus('loading')
 		try {
-			const response = await fetch('http://localhost:3000/orders')
+			const response = await fetch(`${API_URL}/orders`)
 			if (!response.ok) {
 				throw new Error('Failed to fetch orders.')
 			}

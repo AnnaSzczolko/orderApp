@@ -1,4 +1,5 @@
 import { orderActions, cartActions, uiActions } from '.'
+const API_URL = 'https://orderapp-backend-tpks.onrender.com'
 
 export const postOrder = customerData => {
 	return async (dispatch, getState) => {
@@ -15,7 +16,7 @@ export const postOrder = customerData => {
 		}
 
 		try {
-			const response = await fetch('http://localhost:3000/orders', {
+			const response = await fetch(`${API_URL}/orders`, {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
