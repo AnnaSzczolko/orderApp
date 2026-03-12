@@ -51,14 +51,14 @@ This project was built independently as part of my developer portfolio.
 * Redux
 * JavaScript (ES6+)
 * CSS
-* Fetch API 
+* Fetch API (HTTP requests)
 
 ### Backend
 
 * Node.js
 * Express
 * REST API
-* Database integration
+* JSON-based data storage
 
 ### Tools
 
