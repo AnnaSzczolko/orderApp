@@ -37,6 +37,8 @@ The project showcases my ability to design and implement a complete fullstack ap
 * handle <b> sending and storing orders </b>
 * maintain a <b> clean project structure </b> and <b> responsive user interface </b>
 
+This project was built independently as part of my developer portfolio.
+
 ---
 
 ## 🛠 Tech Stack
