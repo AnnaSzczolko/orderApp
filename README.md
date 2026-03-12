@@ -22,13 +22,16 @@
 
 ## About the Project
 
-This project is a **fullstack web application** that allows users to browse meals, add them to a cart, and submit orders which are stored on a backend server.
+This project is a fullstack web application that allows users to browse meals, add them to a cart, and submit orders which are stored on a backend server.
 
-The application demonstrates how a modern frontend built with React and Redux communicates with a Node.js and Express API to persist data and manage application state.
+The application demonstrates how a modern frontend built with **React and Redux** communicates with a **Node.js and Express API** to persist data and manage application state.
 
-The project showcases my ability to design and implement a complete fullstack application, including both the client and server side.
+The project showcases my ability to design and implement a **complete fullstack application**, including frontend UI, global state management, backend API development, and communication between client and server.
 
-**Main goals of the project:**
+The frontend and backend are deployed as separate services (Vercel and Render), reflecting a typical real-world deployment setup.
+
+
+### Main goals of the project
 
 * practice building a <b>fullstack application </b>
 * implement <b> global state management using Redux</b>
