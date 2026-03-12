@@ -30,7 +30,6 @@ The project showcases my ability to design and implement a **complete fullstack 
 
 The frontend and backend are deployed as separate services (Vercel and Render), reflecting a typical real-world deployment setup.
 
-
 ### Main goals of the project
 
 * practice building a <b>fullstack application </b>
