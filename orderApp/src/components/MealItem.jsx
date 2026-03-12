@@ -8,7 +8,8 @@ const API_URL = 'https://orderapp-backend-tpks.onrender.com'
 
 function MealItem({ item }) {
 	const { id, name, price, image, description, orders } = item
-	const img = `{API_URL}${image}`
+	const img = `${API_URL}${image}`
+	console.log(img);
 
 	const dispatch = useDispatch()
 
