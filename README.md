@@ -68,25 +68,22 @@ This project was built independently as part of my developer portfolio.
 * Render ( backend deployment)
 
 ---
+## 📁 Project Structure
 
-## 📂 Project Structure
-
-```
+```text
 orderApp
 │
-├── frontend
-│   ├── components
-│   ├── store
-│   ├── util
-│   └── img
+├── frontend                # React application
+│   ├── components          # UI components
+│   ├── store               # Redux state management
+│   ├── util                # helper functions
+│   └── img                 # static assets
 │
-├── backend
-│   ├── data
-│   └── server.js
+├── backend                 # Node.js + Express API
+│   ├── data                # JSON data storage
+│   └── server.js           # backend server entry point
 │
-└── screenshots
-```
-
+└── screenshots             # images used in README
 ---
 
 ## ▶️ How to run the project locally
