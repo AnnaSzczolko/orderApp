@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-green" />
   <img src="https://img.shields.io/badge/Status-Active-success" />
 
-    ![React](https://img.shields.io/badge/React-Frontend-blue)
+    ![React](https://img.shields.io/badge/Frontend-React%20(Vite)-blue)
 ![Redux](https://img.shields.io/badge/Redux-State%20Management-purple)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
 ![Express](https://img.shields.io/badge/Express-API-lightgrey)
