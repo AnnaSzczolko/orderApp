@@ -18,7 +18,7 @@ function MealItem({ item }) {
 
 	return (
 		<li className={classes.mealItem}>
-			<img className={classes.mealImg} src={`http://localhost:3000/${image}`} alt={`Image of ${item.name}`} />
+			<img className={classes.mealImg} src={img} alt={`Image of ${item.name}`} />
 			<div className={classes.container}>
 				<h3 className={classes.mealTitle}>{name}</h3>
 				<p className={classes.mealPrice}>{currencyFormatter.format(price)}</p>
