@@ -21,13 +21,19 @@
 
 This project is a **fullstack web application** that allows users to browse meals, add them to a cart, and submit orders which are stored on a backend server.
 ```
-The project demonstrates how a modern React frontend with Redux state management communicates with a Node.js + Express backend API to persist and retrieve data.
+The project demonstrates how a modern frontend built with React and Redux can communicate with a Node.js + Express API to persist data and manage application state.
+```
+This project shows my ability to build and connect a complete fullstack application.
 
 **Main goals of the project:**
 
-* show practical fullstack skills
-* present clean project structure
-* demonstrate real data flow between frontend and backend
+* show practical building a <b>fullstack application </b> skills
+* implement <b>state management using Redux</b>
+* create a <b> REST API using Node.js and Express </b>
+* connect a frontend application with a backend server
+* handle <b> sending and storing orders </b>
+* handle <b> sending and storing orders </b>
+* present <b> clean project structure </b> and <b> responsive user interface </b>
 
 ---
 
@@ -118,19 +124,32 @@ Backend API runs separately and handles order storage.
 ## 🚀 Features
 
 * Full communication between frontend and backend
-* REST API for CRUD data operations
+* REST API for data operations
 * Backend connected to a database
 * Modern frontend setup with Vite
 * Clean and readable code structure
 
 ---
 
+## User can : 
+
+* Browse available meals
+* Add selected meals to the cart
+* Modify cart items
+* Submit an order
+* Store the order on the backend server
+* Retrieve stored orders
+
+---
+
 ## 📈 What I learned
 
-* building and connecting REST APIs
-* handling async data flow in React
-* structuring a fullstack project
-* deploying a web application
+* building a complete fullstack workflow
+* managing global state using Redux
+* creating REST APIs with Express
+* handling frontend–backend communication
+* deploying frontend and backend separately
+* structuring a small production-like application
 
 ---
 
