@@ -3,8 +3,7 @@ import classes from './CartItemInOrders.module.css'
 
 export default function CartItemInOrders({ item }) {
 		const API_URL = 'https://orderapp-backend-tpks.onrender.com'
-		console.log(item);
-		const img = `${API_URL}${item.img}`
+		const img = `${API_URL}${item.image}`
 
 	return (
 		<div className={classes.cartItemContainer}>
