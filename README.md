@@ -1,7 +1,7 @@
 <h1 align="center">Order App</h1>
 
 <p align="center">
-    Fullstack web application built with <b>React frontend with Redux state management</b> and <b>Node.js / Express</b>
+    <b>Fullstack web application</b> built with <b>React frontend with Redux state management</b> and <b>Node.js / Express</b>
 </p>
 
 <p align="center">
