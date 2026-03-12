@@ -84,6 +84,7 @@ orderApp
 │   └── server.js           # backend server entry point
 │
 └── screenshots             # images used in README
+```
 ---
 
 ## ▶️ How to run the project locally
