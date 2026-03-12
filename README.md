@@ -10,10 +10,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Frontend-React%20(Vite)-blue" />
-![Redux](https://img.shields.io/badge/Redux-State%20Management-purple)
-![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
-![Express](https://img.shields.io/badge/Express-API-lightgrey)
+  <img src="https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redux-Toolkit-764ABC?logo=redux&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/API-REST-orange"/>
 </p>
 
 ---
