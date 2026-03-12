@@ -14,6 +14,16 @@ app.use((req, res, next) => {
 	next()
 })
 
+app.get('/', (req, res) => {
+  res.json({
+    message: "OrderApp API is running",
+    endpoints: {
+      meals: "/meals",
+      orders: "/orders"
+    }
+  })
+})
+
 app.get('/meals', async (req, res) => {
 	try {
 		const meals = await fs.readFile('./data/meals.json', 'utf8')
@@ -56,83 +66,9 @@ app.get('/orders', async (req,res) => {
   }
 })
 
-const defaultOrders = [
-  {
-    "customer": {
-      "name": "Anna",
-      "surname": "Szczołko",
-      "city": "Poznań",
-      "street": "osiedle Lecha",
-      "postal-code": "61-297"
-    },
-    "cart": [
-      {
-        "name": "Tagliatelle al Pesto",
-        "price": 27.99,
-        "id": "p2",
-        "quantity": 1,
-        "img": "http://localhost:3000/images/TagliatellealPesto.png",
-        "orders": 256
-      },
-      {
-        "name": "Spaghetti Pomodoro",
-        "price": 24.99,
-        "id": "p1",
-        "quantity": 1,
-        "img": "http://localhost:3000/images/SpaghettiPomodoro.png",
-        "orders": 123
-      }
-    ]
-  },
-  {
-    "customer": {
-      "name": "Jan",
-      "surname": "Nowak",
-      "city": "Warszawa",
-      "street": "Długa 18 ",
-      "postal-code": "00-238"
-    },
-    "cart": [
-      {
-        "name": "Fusilli with Cream Sauce",
-        "price": 26.99,
-        "id": "p4",
-        "quantity": 1,
-        "img": "http://localhost:3000/images/Fusillisosemśmietanowym.png",
-        "orders": 198
-      },
-      {
-        "name": "Penne Arrabbiata",
-        "price": 25.99,
-        "id": "p3",
-        "quantity": 1,
-        "img": "http://localhost:3000/images/PenneArrabbiata.png",
-        "orders": 342
-      },
-      {
-        "name": "Linguine alle Vongole",
-        "price": 34.99,
-        "id": "p6",
-        "quantity": 1,
-        "img": "http://localhost:3000/images/LinguinealleVongole.png",
-        "orders": 287
-      }
-    ]
-  }
-]
-
 const PORT = process.env.PORT || 3000
 
-async function startServer() {
-  try {
-    await fs.access('./data/orders.json')
-  } catch {
-    await fs.writeFile('./data/orders.json', JSON.stringify(defaultOrders, null, 2))
-  }
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`)
+})
 
-  app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`)
-  })
-}
-
-startServer()
