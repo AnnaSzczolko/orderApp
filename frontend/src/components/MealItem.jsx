@@ -12,8 +12,8 @@ function MealItem({ item }) {
 
 	const dispatch = useDispatch()
 
-	const addItemHandler = (name, price, img, id, orders) => {
-		dispatch(cartActions.addItemToCart({ name, price, id, img, orders }))
+	const addItemHandler = (name, price, image, id, orders) => {
+		dispatch(cartActions.addItemToCart({ name, price, id, image, orders }))
 	}
 
 	return (
@@ -25,7 +25,7 @@ function MealItem({ item }) {
 				<p className={classes.mealDescription}>{description}</p>
 			</div>
 
-			<button className={classes.mealBtn} onClick={() => addItemHandler(name, price, img, id, orders)}>
+			<button className={classes.mealBtn} onClick={() => addItemHandler(name, price, image, id, orders)}>
 				Add to cart
 			</button>
 		</li>

@@ -4,10 +4,10 @@ import CartItemInOrders from './CartItemInOrders'
 import classes from './Orders.module.css'
 import Spinner from './Spinner'
 
-const API_URL = 'https://orderapp-backend-tpks.onrender.com'
 
 
 export default function Orders() {
+	const API_URL = 'https://orderapp-backend-tpks.onrender.com'
 	const [orders, setOrders] = useState([])
 	const [showOrders, setShowOrders] = useState(false)
 	const [status, setStatus] = useState('idle')
@@ -35,6 +35,8 @@ export default function Orders() {
 	useEffect(() => {
 		loadOrders()
 	}, [])
+
+
 
 	return (
 		<section>

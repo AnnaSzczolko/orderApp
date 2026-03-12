@@ -13,7 +13,7 @@
         "price": 27.99,
         "id": "p2",
         "quantity": 1,
-        "img": "/images/TagliatellealPesto.png",
+        "image": "/images/TagliatellealPesto.png",
         "orders": 256
       },
       {
@@ -21,7 +21,7 @@
         "price": 24.99,
         "id": "p1",
         "quantity": 1,
-        "img": "/images/SpaghettiPomodoro.png",
+        "image": "/images/SpaghettiPomodoro.png",
         "orders": 123
       }
     ]
@@ -40,7 +40,7 @@
         "price": 26.99,
         "id": "p4",
         "quantity": 1,
-        "img": "/images/Fusillisosemśmietanowym.png",
+        "image": "/images/Fusillisosemśmietanowym.png",
         "orders": 198
       },
       {
@@ -48,7 +48,7 @@
         "price": 25.99,
         "id": "p3",
         "quantity": 1,
-        "img": "/images/PenneArrabbiata.png",
+        "image": "/images/PenneArrabbiata.png",
         "orders": 342
       },
       {
@@ -56,7 +56,7 @@
         "price": 34.99,
         "id": "p6",
         "quantity": 1,
-        "img": "/images/LinguinealleVongole.png",
+        "image": "/images/LinguinealleVongole.png",
         "orders": 287
       }
     ]

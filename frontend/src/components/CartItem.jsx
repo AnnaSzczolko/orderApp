@@ -5,11 +5,13 @@ import { cartActions } from '../store'
 import delte from '../img/delete.svg'
 
 export default function CartItem({ item }) {
-	const { name, price, img, id } = item
 	const dispatch = useDispatch()
+	const API_URL = 'https://orderapp-backend-tpks.onrender.com'
+	const { name, price, image, id } = item
+	const img = `${API_URL}${image}`
 
-	const addItemHandler = (name, price, img, id) => {
-		dispatch(cartActions.addItemToCart({ name, price, id, img }))
+	const addItemHandler = (name, price, image, id) => {
+		dispatch(cartActions.addItemToCart({ name, price, id, image }))
 	}
 	const removeItemHandler = id => {
 		dispatch(cartActions.removeItemFromCart({ id }))
@@ -20,7 +22,7 @@ export default function CartItem({ item }) {
 
 	return (
 		<div className={classes.cartItemContainer}>
-			<img className={classes.img} src={item.img} alt={item.name} />
+			<img className={classes.img} src={img} alt={item.name} />
 			<div className={classes.info}>
 				<p className={classes.title}>{item.name}</p>
 				<p className={classes.price}>{currencyFormatter.format(item.price)}/ 1qty</p>
@@ -29,7 +31,7 @@ export default function CartItem({ item }) {
 			
 				<div className={classes.buttonContainer}>
 					<div>
-						<button className={classes.button} onClick={() => addItemHandler(name, price, img, id)}>
+						<button className={classes.button} onClick={() => addItemHandler(name, price, image, id)}>
 							{' '}
 							+{' '}
 						</button>

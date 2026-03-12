@@ -12,6 +12,7 @@ export default function CartView() {
 	const totalQuantity = useSelector(selectTotalQuantity)
 	const totalPrice = useSelector(selectTotalPrice)
 	const itemsInCart = useSelector(state => state.cart.itemsInCart)
+	console.log(itemsInCart);
 
 	const handleClearCart = () => {
 		dispatch(cartActions.clearCart())

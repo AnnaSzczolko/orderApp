@@ -81,7 +81,7 @@ const cartSlice = createSlice({
 					price: +action.payload.price,
 					id: action.payload.id,
 					quantity: 1,
-					img: action.payload.img,
+					image: action.payload.image,
 					orders: action.payload.orders,
 				}
 
