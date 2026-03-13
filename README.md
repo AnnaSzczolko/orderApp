@@ -82,6 +82,8 @@ This project was built independently as part of my developer portfolio.
 ## 🔌 API Endpoints
 
 The backend exposes a simple REST API built with **Node.js and Express**.
+
+Base URL:
 https://orderapp-backend-tpks.onrender.com
 
 ### GET /
@@ -125,7 +127,7 @@ Response example:
 
 Create a new order.
 
-The order is stored on the server in a JSON file.
+Orders are stored on the server using JSON-based data storage.
 
 Request body example:
 
