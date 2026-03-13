@@ -79,8 +79,97 @@ This project was built independently as part of my developer portfolio.
 
 
 ---
+## 🔌 API Endpoints
+
+The backend exposes a simple REST API built with **Node.js and Express**.
+https://orderapp-backend-tpks.onrender.com
+
+### GET /
+
+Check if the API server is running.
+
+Response example:
+
+```json
+{
+  "message": "OrderApp API is running",
+  "endpoints": {
+    "meals": "/meals",
+    "orders": "/orders"
+  }
+}
+
+### GET /meals
+
+Fetch a list of available meals.
+
+The data is loaded from a JSON file on the server.
+
+Response example:
+
+```json
+[
+  {
+    "id": "m1",
+    "name": "Sushi",
+    "price": 22.99
+  }
+]
+
+### POST /orders
+
+Create a new order.
+
+The order is stored on the server in a JSON file.
+
+Request body example:
+
+```json
+{
+  "customer": {
+    "name": "Anna",
+    "street": "Main Street",
+    "postalCode": "60-001",
+    "city": "Poznan"
+  },
+  "items": [
+    {
+      "id": "m1",
+      "name": "Sushi",
+      "amount": 2,
+      "price": 22.99
+    }
+  ]
+}
+
+```markdown
+### GET /orders
+
+Retrieve stored orders.
+
+Response example:
+
+```json
+[
+  {
+    "customer": {
+      "name": "Anna",
+      "street": "Main Street",
+      "postalCode": "60-001",
+      "city": "Poznan"
+    },
+    "items": [
+      {
+        "id": "m1",
+        "name": "Sushi",
+        "amount": 2
+      }
+    ]
+  }
+]
 
 
+---
 ## 📁 Project Structure
 
 
