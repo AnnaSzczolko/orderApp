@@ -3,7 +3,7 @@ import { currencyFormatter } from '../util/currencyFormatting'
 import classes from './MealItem.module.css'
 import { useDispatch } from 'react-redux'
 import { cartActions } from '../store'
-
+import { toast } from 'react-toastify'
 
 function MealItem({ item }) {
 	const API_URL = 'https://orderapp-backend-tpks.onrender.com'
@@ -14,6 +14,19 @@ function MealItem({ item }) {
 
 	const addItemHandler = (name, price, image, id, orders) => {
 		dispatch(cartActions.addItemToCart({ name, price, id, image, orders }))
+
+		toast.success(`${name} added to cart`, {
+			toastId: `cart-${id}`,
+			style: {
+				background: 'linear-gradient(90deg, #adabab, #6b6b6b)',
+				padding : '10px',
+				color: 'white',
+				fontWeight: 'bold',
+				fontSize: '18px',
+				borderRadius: '10px',
+				boxShadow: '0 4px 12px rgba(0,0,0,0.25)',
+			},
+		})
 	}
 
 	return (
