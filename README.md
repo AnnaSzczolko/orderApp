@@ -152,6 +152,22 @@ Request body example:
 }
 ```
 
+Response:
+
+```json
+{
+  "message": "Order created"
+}
+```
+
+Status codes:
+```json
+
+  201 Created – order stored successfully
+  500 Server Error – failed to store order
+
+```
+
 ### GET /orders
 
 Retrieve stored orders.
@@ -159,7 +175,7 @@ Retrieve stored orders.
 Response example:
 
 ```json
-{
+[{
     "customer":{
         "name":"Anna",
         "surname":"Szczołko",
@@ -176,7 +192,7 @@ Response example:
             "image":"/images/TagliatellealPesto.png",
             "orders":256}
             ]
-}
+}]
 ```
 
 
