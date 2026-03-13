@@ -98,6 +98,7 @@ Response example:
     "orders": "/orders"
   }
 }
+```
 
 ### GET /meals
 
