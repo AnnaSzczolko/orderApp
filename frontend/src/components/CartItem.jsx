@@ -20,6 +20,8 @@ export default function CartItem({ item }) {
 		dispatch(cartActions.removeWholeItem({ id }))
 	}
 
+	let isBtnDisabled = item.quantity === 1
+
 	return (
 		<div className={classes.cartItemContainer}>
 			<img className={classes.img} src={img} alt={item.name} />
@@ -36,7 +38,7 @@ export default function CartItem({ item }) {
 							+{' '}
 						</button>
 						<p className={classes.quantity}>{item.quantity}</p>
-						<button className={classes.button} onClick={() => removeItemHandler(id)}>
+						<button disabled={isBtnDisabled} className={ isBtnDisabled ? classes.buttonDisabled : classes.button} onClick={() => removeItemHandler(id)}>
 							{' '}
 							-
 						</button>
