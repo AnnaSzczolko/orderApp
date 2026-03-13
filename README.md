@@ -46,6 +46,35 @@ This project was built independently as part of my developer portfolio.
 
 
 ---
+### Screenshots
+
+### Homepage – Meals list
+Displays meals fetched from the API.
+
+![Homepage](screenshots/meals.png)
+
+---
+
+### Cart
+Users can add meals and manage cart items using Redux.
+
+![Cart](screenshots/cart.png)
+
+---
+
+### Checkout
+Users can submit their order via a form.
+
+![Checkout](screenshots/checkout.png)
+
+---
+
+### Orders
+Stored orders can be retrieved from the backend.
+
+![Orders](screenshots/orders.png)
+
+
 
 
 ## 🛠 Tech Stack
