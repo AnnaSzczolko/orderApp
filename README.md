@@ -116,6 +116,7 @@ Response example:
     "price": 22.99
   }
 ]
+```
 
 ### POST /orders
 
@@ -142,6 +143,7 @@ Request body example:
     }
   ]
 }
+```
 
 ```markdown
 ### GET /orders
@@ -168,6 +170,7 @@ Response example:
     ]
   }
 ]
+```
 
 
 ---
