@@ -110,11 +110,14 @@ Response example:
 
 ```json
 [
-  {
-    "id": "m1",
-    "name": "Sushi",
-    "price": 22.99
-  }
+    {
+        "id":"p1",
+        "name":"Spaghetti Pomodoro",
+        "price":"24.99",
+        "description":"Classic al dente spaghetti in a light tomato sauce made from ripe tomatoes, garlic, and fresh basil, finished with extra virgin olive                       oil.",
+        "image":"/images/SpaghettiPomodoro.png",
+        "orders":123
+    }
 ]
 ```
 
@@ -128,20 +131,22 @@ Request body example:
 
 ```json
 {
-  "customer": {
-    "name": "Anna",
-    "street": "Main Street",
-    "postalCode": "60-001",
-    "city": "Poznan"
-  },
-  "items": [
-    {
-      "id": "m1",
-      "name": "Sushi",
-      "amount": 2,
-      "price": 22.99
-    }
-  ]
+    "customer":{
+        "name":"Anna",
+        "surname":"Szczołko",
+        "city":"Poznań",
+        "street":"osiedle Lecha",
+        "postal-code":"61-297"},
+
+    "cart":[
+        {
+            "name":"Tagliatelle al Pesto",
+            "price":27.99,
+            "id":"p2",
+            "quantity":1,
+            "image":"/images/TagliatellealPesto.png",
+            "orders":256}
+            ]
 }
 ```
 
@@ -152,23 +157,24 @@ Retrieve stored orders.
 Response example:
 
 ```json
-[
-  {
-    "customer": {
-      "name": "Anna",
-      "street": "Main Street",
-      "postalCode": "60-001",
-      "city": "Poznan"
-    },
-    "items": [
-      {
-        "id": "m1",
-        "name": "Sushi",
-        "amount": 2
-      }
-    ]
-  }
-]
+{
+    "customer":{
+        "name":"Anna",
+        "surname":"Szczołko",
+        "city":"Poznań",
+        "street":"osiedle Lecha",
+        "postal-code":"61-297"},
+
+    "cart":[
+        {
+            "name":"Tagliatelle al Pesto",
+            "price":27.99,
+            "id":"p2",
+            "quantity":1,
+            "image":"/images/TagliatellealPesto.png",
+            "orders":256}
+            ]
+}
 ```
 
 
