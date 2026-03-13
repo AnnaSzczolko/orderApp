@@ -39,6 +39,7 @@ The frontend and backend are deployed as separate services (Vercel and Render), 
 * create a <b> REST API using Node.js and Express </b>
 * connect a frontend application with a backend server
 * handle <b> sending and storing orders </b>
+* deploy frontend and backend separately
 * maintain a <b> clean project structure </b> and <b> responsive user interface </b>
 
 This project was built independently as part of my developer portfolio.
@@ -55,15 +56,18 @@ This project was built independently as part of my developer portfolio.
 * Redux
 * JavaScript (ES6+)
 * CSS
-* Fetch API (HTTP requests)
 
 
 ### Backend
 
 * Node.js
 * Express
-* REST API
 * JSON-based data storage
+
+
+  ### API Communication
+- Fetch API
+- REST architecture
 
 
 ### Tools
@@ -165,12 +169,12 @@ The frontend communicates with the backend API for fetching meals and submitting
 
 ## 📈 What I learned
 
-* building a complete fullstack workflow
-* managing global state using Redux
-* creating REST APIs with Express
-* handling frontend–backend communication
+* building a <b>complete fullstack workflow</b>
+* managing global state using <b>Redux</b>
+* creating <b>REST APIs with Express</b>
+* handling <b>frontend–backend communication</b>
 * deploying frontend and backend separately
-* structuring a small production-like application
+* structuring a small <b>production-like application</b>
 
 ---
 
