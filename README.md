@@ -79,6 +79,27 @@ This project was built independently as part of my developer portfolio.
 
 ---
 
+## 🚀 Features
+
+* Full communication between frontend and backend
+* REST API for data operations
+* Backend connected to a database
+* Modern frontend setup with Vite
+* Clean and readable code structure
+
+---
+
+## User can : 
+
+* Browse available meals
+* Add selected meals to the cart
+* Modify cart items
+* Submit an order
+* Store the order on the backend server
+* Retrieve stored orders
+
+---
+
 ## 🏗 Architecture
 
 The application follows a simple **client–server fullstack architecture**.
@@ -283,26 +304,6 @@ The frontend communicates with the backend API for fetching meals and submitting
 
 ---
 
-## 🚀 Features
-
-* Full communication between frontend and backend
-* REST API for data operations
-* Backend connected to a database
-* Modern frontend setup with Vite
-* Clean and readable code structure
-
----
-
-## User can : 
-
-* Browse available meals
-* Add selected meals to the cart
-* Modify cart items
-* Submit an order
-* Store the order on the backend server
-* Retrieve stored orders
-
----
 
 ## 📈 What I learned
 
