@@ -77,8 +77,29 @@ This project was built independently as part of my developer portfolio.
 * Vercel ( frontend deployment)
 * Render ( backend deployment)
 
+---
+
+## 🏗 Architecture
+
+The application follows a simple **client–server fullstack architecture**.
+
+```
+React Frontend (Vite + Redux)
+        |
+        | HTTP requests (Fetch API)
+        ↓
+Node.js + Express REST API
+        |
+        ↓
+JSON-based data storage
+```
+
+Frontend is responsible for rendering the UI, managing global state with Redux, and sending requests to the backend API.
+
+The backend handles incoming requests, processes orders, and stores data in JSON files on the server.
 
 ---
+
 ## 🔌 API Endpoints
 
 The backend exposes a simple REST API built with **Node.js and Express**.
