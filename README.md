@@ -1,11 +1,12 @@
 <h1 align="center">Order App</h1>
 
 <p align="center">
-    <b>Fullstack web application</b> built with <b>React frontend with Redux state management</b> and <b>Node.js / Express</b>
+    <b>Fullstack web application</b> built with <b>React frontend with Redux state management</b> and <b>Node.js / Express</b> backend.
 </p>
 
 <p align="center">
-  <a href="https://order-app-pied-three.vercel.app">🌐 Live Demo</a> •
+  <a href="https://order-app-pied-three.vercel.app">🌐 Live Demo</a> 
+   <a href="https://orderapp-backend-tpks.onrender.com">🔌 Backend API</a>
   <a href="https://github.com/AnnaSzczolko/orderApp">📂 GitHub Repository</a>
 </p>
 
@@ -112,20 +113,9 @@ Stored orders can be retrieved from the backend.
 
 * Full communication between frontend and backend
 * REST API for data operations
-* Backend connected to a database
+* Backend using JSON-based data storage
 * Modern frontend setup with Vite
 * Clean and readable code structure
-
----
-
-## User can : 
-
-* Browse available meals
-* Add selected meals to the cart
-* Modify cart items
-* Submit an order
-* Store the order on the backend server
-* Retrieve stored orders
 
 ---
 
@@ -232,7 +222,7 @@ Response:
 ```
 
 Status codes:
-```json
+```
 
   201 Created – order stored successfully
   500 Server Error – failed to store order
