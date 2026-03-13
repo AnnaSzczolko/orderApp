@@ -145,7 +145,6 @@ Request body example:
 }
 ```
 
-```markdown
 ### GET /orders
 
 Retrieve stored orders.
